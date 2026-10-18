@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper below."
+title: "recsys-multiverse: a multiverse / specification-curve analysis harness for offline recommender-system evaluation"
+authors:
+  - family-names: "Aydemir"
+    given-names: "Resul Berkem"
+  - family-names: "Demirelli Okkalioglu"
+    given-names: "Burcu"
+version: "1.0.0"
+date-released: "2026-10-15"
+license: MIT
+preferred-citation:
+  type: article
+  title: "A Multiverse Analysis of Offline Recommender Systems Evaluation: Quantifying the Fragility of Model Comparisons"
+  authors:
+    - family-names: "Aydemir"
+      given-names: "Resul Berkem"
+    - family-names: "Demirelli Okkalioglu"
+      given-names: "Burcu"
+  year: 2026

@@ -1,0 +1,164 @@
+{
+  "ml-100k": {
+    "MostPop": {},
+    "ItemKNN": {
+      "topk": 200
+    },
+    "EASE": {
+      "reg": 250.0
+    },
+    "BPRMF": {
+      "epochs": 60,
+      "dim": 64,
+      "lr": 0.005,
+      "batch": 8192,
+      "reg": 0.0001
+    },
+    "LightGCN": {
+      "epochs": 50,
+      "dim": 64,
+      "n_layers": 2,
+      "batch": 8192,
+      "lr": 0.01
+    },
+    "SASRec": {
+      "epochs": 100,
+      "dim": 64,
+      "n_blocks": 2,
+      "n_heads": 2,
+      "batch": 128,
+      "lr": 0.001,
+      "maxlen": 50,
+      "dropout": 0.5
+    }
+  },
+  "ml-1m": {
+    "MostPop": {},
+    "ItemKNN": {
+      "topk": 50
+    },
+    "EASE": {
+      "reg": 500.0
+    },
+    "BPRMF": {
+      "epochs": 60,
+      "dim": 64,
+      "lr": 0.005,
+      "batch": 8192,
+      "reg": 0.0001
+    },
+    "LightGCN": {
+      "epochs": 50,
+      "dim": 64,
+      "n_layers": 3,
+      "batch": 8192,
+      "lr": 0.01
+    },
+    "SASRec": {
+      "epochs": 100,
+      "dim": 64,
+      "n_blocks": 2,
+      "n_heads": 2,
+      "batch": 128,
+      "lr": 0.0005,
+      "maxlen": 200,
+      "dropout": 0.2
+    }
+  },
+  "gowalla": {
+    "MostPop": {},
+    "ItemKNN": {
+      "topk": 200
+    },
+    "BPRMF": {
+      "epochs": 60,
+      "dim": 64,
+      "lr": 0.005,
+      "batch": 8192,
+      "reg": 0.0001
+    },
+    "LightGCN": {
+      "epochs": 50,
+      "dim": 64,
+      "n_layers": 3,
+      "batch": 8192,
+      "lr": 0.01
+    },
+    "SASRec": {
+      "epochs": 100,
+      "dim": 64,
+      "n_blocks": 2,
+      "n_heads": 2,
+      "batch": 128,
+      "lr": 0.001,
+      "maxlen": 50,
+      "dropout": 0.5
+    }
+  },
+  "amazon-cds": {
+    "MostPop": {},
+    "ItemKNN": {
+      "topk": 200
+    },
+    "EASE": {
+      "reg": 100.0
+    },
+    "BPRMF": {
+      "epochs": 60,
+      "dim": 64,
+      "lr": 0.005,
+      "batch": 8192,
+      "reg": 0.0001
+    },
+    "LightGCN": {
+      "epochs": 50,
+      "dim": 64,
+      "n_layers": 3,
+      "batch": 8192,
+      "lr": 0.01
+    },
+    "SASRec": {
+      "epochs": 100,
+      "dim": 64,
+      "n_blocks": 2,
+      "n_heads": 2,
+      "batch": 128,
+      "lr": 0.001,
+      "maxlen": 50,
+      "dropout": 0.2
+    }
+  },
+  "yelp": {
+    "MostPop": {},
+    "ItemKNN": {
+      "topk": 200
+    },
+    "EASE": {
+      "reg": 250.0
+    },
+    "BPRMF": {
+      "epochs": 60,
+      "dim": 64,
+      "lr": 0.005,
+      "batch": 8192,
+      "reg": 0.0001
+    },
+    "LightGCN": {
+      "epochs": 50,
+      "dim": 64,
+      "n_layers": 3,
+      "batch": 8192,
+      "lr": 0.01
+    },
+    "SASRec": {
+      "epochs": 100,
+      "dim": 64,
+      "n_blocks": 2,
+      "n_heads": 2,
+      "batch": 128,
+      "lr": 0.001,
+      "maxlen": 200,
+      "dropout": 0.2
+    }
+  }
+}
