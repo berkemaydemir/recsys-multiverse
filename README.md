@@ -5,6 +5,10 @@ Reproducibility package for:
 > **A Multiverse Analysis of Offline Recommender Systems Evaluation: Quantifying the Fragility of Model Comparisons**
 > Resul Berkem Aydemir and Burcu Demirelli Okkalioglu, 2026.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23453297.svg)](https://doi.org/10.5281/zenodo.23453297)
+
+Archived release (v1.0): https://doi.org/10.5281/zenodo.23453297
+
 The paper asks a simple question: when we rank recommender models on an offline
 benchmark, **how much of the leaderboard is an artifact of defensible-but-arbitrary
 evaluation choices?** We answer it by running the *same* six models through a
@@ -232,7 +236,12 @@ configuration can be reused instead of re-tuning.
 
 ## Citation
 
-See `CITATION.cff`. Please cite both the paper and this software.
+Please cite both the paper and this software. Software:
+
+> Aydemir, R. B. & Demirelli Okkalioglu, B. recsys-multiverse: a multiverse / specification-curve analysis
+> harness for offline recommender-system evaluation (v1.0). Zenodo https://doi.org/10.5281/zenodo.23453297 (2026).
+
+Machine-readable metadata are in `CITATION.cff`.
 
 ## License
 

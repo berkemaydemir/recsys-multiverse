@@ -6,8 +6,11 @@ authors:
     given-names: "Resul Berkem"
   - family-names: "Demirelli Okkalioglu"
     given-names: "Burcu"
-version: "1.0.0"
-date-released: "2026-10-15"
+version: "1.0"
+date-released: "2026-10-18"
+doi: "10.5281/zenodo.23453297"
+repository-code: "https://github.com/berkemaydemir/recsys-multiverse"
+url: "https://doi.org/10.5281/zenodo.23453297"
 license: MIT
 preferred-citation:
   type: article
